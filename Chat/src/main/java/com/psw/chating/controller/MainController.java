@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class MainController {
-	
+	// /chat으로 매핑
 	@RequestMapping("/chat")
 	public ModelAndView chat() {
 		ModelAndView mv = new ModelAndView();
